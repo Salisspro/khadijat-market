@@ -5,7 +5,7 @@ import IMG2 from '../../assets/image/s-l1600.webp'
 import IMG3 from '../../assets/image/xiaomi-redmi-a3-4g-64gb-schwarz-ohne-simlock-ohne-branding-001.jpg'
 import IMG4 from '../../assets/image/614gnlfQt2L._AC_SL1500_.jpg'
 
-import IMG5 from '../../assets/image/download.jpg'
+import IMG5 from '../../assets/image/PDM127P.webp'
 
 
 export default function Hero() {
