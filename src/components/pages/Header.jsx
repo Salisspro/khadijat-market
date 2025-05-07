@@ -6,9 +6,9 @@ import NemuClose from '../../assets/image/icon-menu-close.svg'
 export default function Header() {
   const [modal, setModal] = useState(false)
   return (
-    <div className='grid  justify-between items-center  fixed  z-10'>
+    <div className='grid  justify-between fixed top-0 items-center z-10'>
     
-      <div className='p-10'>
+      <div className='p-10 '>
         <ul className='hidden md:flex gap-4'>
           <li>Home</li>
           <li>About</li>

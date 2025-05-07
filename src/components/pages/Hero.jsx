@@ -11,8 +11,8 @@ import IMG5 from '../../assets/image/PDM127P.webp'
 export default function Hero() {
   return (
     <div className='text-center mb-[7em] '>
-      <div className='flex flex-col justify-center items-center mt-[10em]'>
-        <h1 className='text-3xl font-bold'>Welcome to our bakery</h1>
+      <div className='flex flex-col justify-center items-center mt-[5em]'>
+        <h1 className='text-3xl font-bold mt-20'>Welcome to our bakery</h1>
         <p className='text-slate-500'>We make the best cakes in town</p>
         <button className='bg-slate-500 text-white p-2 rounded-md mt-4'>See our products</button>
       </div>
