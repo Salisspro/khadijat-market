@@ -21,7 +21,7 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$20.00</p>
-                        <button className='  text-slate-200 w-[10em] rounded bg-indigo-500 shadow-lg shadow-indigo-500/50 p-2 '>Add to Cart</button>
+                        <button className='  text-slate-800 w-[10em] rounded border  p-2 '>Add to Cart</button>
 
                      </div>
                   </div>
@@ -36,7 +36,7 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$25.00</p>
-                        <button className=' text-slate-200 w-[10em] rounded bg-indigo-500 shadow-lg shadow-indigo-500/50 p-2 '>Add to Cart</button>
+                        <button className=' text-slate8200 w-[10em] rounded border  p-2 '>Add to Cart</button>
 
                      </div>
                   </div>
@@ -52,7 +52,7 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$15.00</p>
-                        <button className='  text-slate-200 w-[10em] rounded bg-indigo-500 shadow-lg shadow-indigo-500/50 p-2 '>Add to Cart</button>
+                        <button className='  text-slate-800 w-[10em] rounded border  p-2 '>Add to Cart</button>
                      </div>
                   </div>
 
@@ -69,7 +69,7 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$15.00</p>
-                        <button className='text-slate-200 w-[10em] rounded bg-indigo-500 shadow-lg shadow-indigo-500/50 p-2 '>Add to Cart</button>
+                        <button className='text-slate-800 w-[10em] rounded border  p-2 '>Add to Cart</button>
                      </div>
                   </div>
 
