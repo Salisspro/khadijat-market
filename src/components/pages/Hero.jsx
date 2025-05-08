@@ -19,10 +19,10 @@ export default function Hero() {
     
       <div className='flex flex-col justify-center items-center mt-[3em] '>
         <h1>Our best sellers</h1>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5 border-2 border-slate-500 p-5'>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5 ring-blue-400 ring border-slate-500 p-5 rounded'>
           <div>
             <img className='h-[13em] ' src={IMG2} alt="" />
-            <p className='text-slate-500 '>Milk cake  </p>
+            <p className='text-slate-600 text-'>Milk cake  </p>
           
 
             </div>
@@ -48,13 +48,11 @@ export default function Hero() {
 
       <div className='flex flex-col justify-center items-center mt-[5em]'>
         <h1>Items for all ages</h1>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 border-2 border-slate-500 p-5'>
-          <div><img src={IMG} alt="" /></div>
-          <div><img src={IMG} alt="" /></div>
-          <div><img src={IMG} alt="" /></div>
-          <div><img src={IMG} alt="" /></div>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 border-slate-500 p-5'>
+          <p className='text-3xl font-bold'>slide section</p>
           <a href="">
             <button className=' p-2 rounded-md'>See all</button>
+        
           </a>
         </div>
       </div>
