@@ -10,15 +10,10 @@ import IMG5 from '../../assets/image/PDM127P.webp'
 
 export default function Hero() {
   return (
-    <div className='text-center mb-[7em] '>
-      <div className='flex flex-col justify-center items-center mt-[5em]'>
-        <h1 className='text-3xl font-bold mt-20'>Welcome to our bakery</h1>
-        <p className='text-slate-500'>We make the best cakes in town</p>
-        <button className='bg-slate-500 text-white p-2 rounded-md mt-4'>See our products</button>
-      </div>
-    
+    <div className='
+     bg-gradient-to-t from-slate-200 to-slate-100'>
       <div className='flex flex-col justify-center items-center mt-[3em] '>
-        <h1>Our best sellers</h1>
+        <h1 className='mt-20'>Our best sellers</h1>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5 ring-blue-400 ring border-slate-500 p-5 rounded'>
           <div>
             <img className='h-[13em] ' src={IMG2} alt="" />
@@ -45,18 +40,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      <div className='flex flex-col justify-center items-center mt-[5em]'>
-        <h1>Items for all ages</h1>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 border-slate-500 p-5'>
-          <p className='text-3xl font-bold'>slide section</p>
-          <a href="">
-            <button className=' p-2 rounded-md'>See all</button>
-        
-          </a>
-        </div>
-      </div>
-
     </div>
   )
 }
