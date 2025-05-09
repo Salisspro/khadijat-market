@@ -6,15 +6,28 @@ import NemuClose from '../../assets/image/icon-menu-close.svg'
 export default function Header() {
   const [modal, setModal] = useState(false)
   return (
-    <div className='flex items-center justify-between p-5 bg-gradient-to-r from-slate-300 to-slate-700'>
-      <button className='' onClick={() => setModal(!modal)}>
+    <div className='flex justify-between items-center p-4 bg-gradient-to-l from-slate-200 to-slate-900 text-white'>
+      <div className='text-2xl font-bold'>
+        <a href="#" className='text-slate-200 capitalize'>online market</a>
+
+         </div>
+      <div className='hidden md:flex gap-4'>
+        <a href="#" className='hover:text-slate-400'>Home</a>
+        <a href="#" className='hover:text-slate-400'>Products</a>
+        <a href="#" className='hover:text-slate-400'>About Us</a>
+        <a href="#" className='hover:text-slate-400'>Contact Us</a>
+      </div>
+      <button onClick={() => setModal(!modal)} className='md:hidden'>
         <img src={modal ? NemuClose : NemuOpen} alt="" />
       </button>
-      <div>
-        sign in
-      </div>
-      
-
+      {modal && (
+        <div className='absolute top-16 right-0 bg-white text-black w-[200px] shadow-lg rounded-lg p-4'>
+          <a href="#" className='block py-2 hover:bg-gray-200'>Home</a>
+          <a href="#" className='block py-2 hover:bg-gray-200'>Products</a>
+          <a href="#" className='block py-2 hover:bg-gray-200'>About Us</a>
+          <a href="#" className='block py-2 hover:bg-gray-200'>Contact Us</a>
+        </div>
+      )}
     </div>
   )
-}
+  }
