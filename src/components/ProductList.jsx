@@ -74,13 +74,7 @@ export default function ProductList() {
                   </div>
 
                </div>
-
-
-
-
             </div>
-
-
          </div>
       </div>
    )

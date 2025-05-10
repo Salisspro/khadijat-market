@@ -1,23 +1,28 @@
 
 import './App.css'
-import Footer from './components/pages/Footer'
-import Header from './components/pages/Header'
-import Hero from './components/pages/Hero'
-import Order from './components/pages/Order'
-import Slide from './components/pages/Slide'
-import ProductList from './components/ProductList'
+import Main from './components/pages/Main'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SeeAll from './components/router/SeeAll';
 
 function App() {
 
   return (
     <div className='
     bg-gradient-to-t from-slate-800 to-slate-600'>
-      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main/>} />
+          <Route path="/SeeAll" element={<SeeAll/>} />
+        </Routes>
+      </BrowserRouter>
+
+      {/* <Header />
       <Slide/>
       <Hero />
       <ProductList/>
       <Order />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

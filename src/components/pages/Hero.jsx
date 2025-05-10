@@ -34,7 +34,7 @@ export default function Hero() {
             <img className='h-[13em] ' src={IMG5} alt="" />
             <p className=''>Princess dress</p>
             </div>
-          <a href="">
+          <a href="/SeeAll">
             <button className='text-blue-500'>See all</button>
           </a>
         </div>
