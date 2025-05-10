@@ -1,9 +1,11 @@
 
 import React from 'react'
+// import IMG from ''
 
 export default function SeeAll() {
   return (
     <div className='bg-slate-500 min-h-screen'>
+      <img src="" alt="" />
       
       <div className='grid md:grid-cols-3 md:gap-4 p-3 grid-flow-col-1 gap-4'>
         <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl '>

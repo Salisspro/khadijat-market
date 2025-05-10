@@ -10,30 +10,28 @@ import IMG5 from '../../assets/image/PDM127P.webp'
 
 export default function Hero() {
   return (
-    <div className='text-slate-300'>
+    <div className='w-full'>
       <div className='flex flex-col justify-center items-center mt-[3em] '>
-        <h1 className='mt-20 text-3xl text-slate-100 font-bold'>Our best sellers</h1>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5  p-3 shadow-lg shadow-indigo-500/10 '>
-          <div>
-            <img className='h-[13em] ' src={IMG2} alt="" />
-            <p className=''>Milk cake  </p>
-          
-
-            </div>
-          <div>
-            <img className='h-[13em] ' src={IMG3} alt="" />
-            <p className=''>Redmi A3  </p>
-
-
-          </div>
-          <div>
-            <img className='h-[13em] ' src={IMG4} alt=""/>
-            <p className=''>women dress  </p>
-            </div>
-          <div>
-            <img className='h-[13em] ' src={IMG5} alt="" />
+        <h1 className='mt-20 text-3xl font-bold'>Our best sellers</h1>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5  p-3 '>
+          <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
+            <img className='rounded-[10px] w-full h-[15em]' src={IMG2} alt="" />
             <p className=''>Princess dress</p>
-            </div>
+          </div>
+          <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
+            <img className='rounded-[10px] w-full h-[15em]' src={IMG3} alt="" />
+            <p className=''>Princess dress</p>
+          </div>
+
+          <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
+            <img className='rounded-[10px] w-full h-[15em]' src={IMG4} alt="" />
+            <p className=''>Princess dress</p>
+          </div>
+
+          <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
+            <img className='rounded-[10px] w-full h-[15em]' src={IMG5} alt="" />
+            <p className=''>Princess dress</p>
+          </div>
           <a href="/SeeAll">
             <button className='text-blue-500'>See all</button>
           </a>

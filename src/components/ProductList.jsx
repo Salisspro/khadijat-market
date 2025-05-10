@@ -8,11 +8,11 @@ import IMG5 from '../assets/image/photo.jpg'
 
 export default function ProductList() {
    return (
-      <div className='mt-20 text-slate-300'>
+      <div className='mt-20 text-slate-800'>
          <h2 className='text-3xl font-bold text text-slate-500'>Our Products</h2>
          <div className='flex justify-center items-center '>
             <div className='grid md:grid-cols-3 md:gap-4 p-3 grid-flow-col-1 gap-4'>
-               <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl '>
+               <div className=' p-3 shadow-lg shadow-indigo-500/50 '>
                   <img src={IMG1} alt="" className='rounded-lg w-full h-[17em]' />
                   <div className='p-4 '>
                      <h3 className='text-xl font-bold'>MILK CAKE</h3>
@@ -21,13 +21,13 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$20.00</p>
-                        <button className='  text-slate-200 w-[10em] rounded border  p-2 '>Add to Cart</button>
+                        <button className=' text-slate-900 w-[10em] rounded border  p-2 shadow-lg shadow-indigo-500/50'>Add to Cart</button>
 
                      </div>
                   </div>
 
                </div>
-               <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl'>
+               <div className=' p-3 shadow-lg shadow-indigo-500/50 '>
                   <img src={IMG2} alt="" className='rounded-lg w-full h-[17em]' />
                   <div className='p-4'>
                      <h3 className='text-xl font-bold'>CHOCOLATE CAKE</h3>
@@ -36,13 +36,13 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$25.00</p>
-                        <button className=' text-slate8200 w-[10em] rounded border  p-2 '>Add to Cart</button>
+                        <button className=' text-slate-800 w-[10em] rounded border  p-2 '>Add to Cart</button>
 
                      </div>
                   </div>
                </div>
 
-               <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl'>
+               <div className=' p-3 shadow-lg shadow-indigo-500/50 '>
 
                   <img src={IMG4} alt="" className='rounded-lg w-full h-[17em]' />
                   <div className='p-4'>
@@ -52,14 +52,14 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$15.00</p>
-                        <button className='  text-slate-200 w-[10em] rounded border  p-2 '>Add to Cart</button>
+                        <button className='  text-slate-800 w-[10em] rounded border  p-2 '>Add to Cart</button>
                      </div>
                   </div>
 
                </div>
 
 
-               <div className='p-3 shadow-lg shadow-indigo-500/50 rounded-2xl'>
+               <div className='p-3 shadow-lg shadow-indigo-500/50 '>
 
                   <img src={IMG5} alt="" className='rounded-lg w-full h-[17em]' />
                   <div className='p-4'>
@@ -69,7 +69,7 @@ export default function ProductList() {
 
                      <div className='flex justify-between items-center'>
                         <p className='text-lg font-bold'>$15.00</p>
-                        <button className='text-slate-200 w-[10em] rounded border  p-2 '>Add to Cart</button>
+                        <button className='text-slate-800 w-[10em] rounded border  p-2 '>Add to Cart</button>
                      </div>
                   </div>
 

@@ -8,9 +8,7 @@ import SeeAll from './components/router/SeeAll';
 function App() {
 
   return (
-    <div className='
-      bg-gradient-to-t from-slate-800 to-slate-600 text-slate-300
-    '>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main/>} />
