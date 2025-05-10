@@ -22,10 +22,11 @@ export default function Header() {
         <a href="#" className='hover:text-slate-400'>Contact Us</a>
       </div>
       <button onClick={() => setModal(!modal)} className='md:hidden'>
-        <img src={modal ? NemuClose : NemuOpen} alt="" />
+        <img className='' src={modal ? NemuClose : NemuOpen} alt="" />
       </button>
       {modal && (
-        <div className='absolute top-16 right-0 bg-white text-black w-[200px] shadow-lg rounded-lg p-4 z-10'>
+        <div className='absolute top-16 right-0 bg-white text-black w-48 shadow-lg rounded-md p-4 z-20 md:hidden
+        ' >
           <a href="#" className='block py-2 hover:bg-gray-200'>Home</a>
           <a href="#" className='block py-2 hover:bg-gray-200'>Products</a>
           <a href="#" className='block py-2 hover:bg-gray-200'>About Us</a>

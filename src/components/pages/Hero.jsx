@@ -10,30 +10,29 @@ import IMG5 from '../../assets/image/PDM127P.webp'
 
 export default function Hero() {
   return (
-    <div className='
-     bg-gradient-to-t from-slate-200 to-slate-100'>
+    <div className='text-slate-300'>
       <div className='flex flex-col justify-center items-center mt-[3em] '>
-        <h1 className='mt-20'>Our best sellers</h1>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5 ring-blue-400 ring border-slate-500 p-5 rounded'>
+        <h1 className='mt-20 text-3xl text-slate-100 font-bold'>Our best sellers</h1>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5  p-3 shadow-lg shadow-indigo-500/10 '>
           <div>
             <img className='h-[13em] ' src={IMG2} alt="" />
-            <p className='text-slate-600 text-'>Milk cake  </p>
+            <p className=''>Milk cake  </p>
           
 
             </div>
           <div>
             <img className='h-[13em] ' src={IMG3} alt="" />
-            <p className='text-slate-500'>Redmi A3  </p>
+            <p className=''>Redmi A3  </p>
 
 
           </div>
           <div>
             <img className='h-[13em] ' src={IMG4} alt=""/>
-            <p className='text-slate-500'>women dress  </p>
+            <p className=''>women dress  </p>
             </div>
           <div>
             <img className='h-[13em] ' src={IMG5} alt="" />
-            <p className='text-slate-500'>Princess dress</p>
+            <p className=''>Princess dress</p>
             </div>
           <a href="">
             <button className='text-blue-500'>See all</button>
