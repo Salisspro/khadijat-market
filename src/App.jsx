@@ -9,20 +9,14 @@ function App() {
 
   return (
     <div className='
-    bg-gradient-to-t from-slate-800 to-slate-600'>
+      bg-gradient-to-t from-slate-800 to-slate-600 text-slate-300
+    '>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main/>} />
           <Route path="/SeeAll" element={<SeeAll/>} />
         </Routes>
       </BrowserRouter>
-
-      {/* <Header />
-      <Slide/>
-      <Hero />
-      <ProductList/>
-      <Order />
-      <Footer /> */}
     </div>
   )
 }

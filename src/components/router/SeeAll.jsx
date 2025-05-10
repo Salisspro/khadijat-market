@@ -1,42 +1,49 @@
 
-
 import React from 'react'
 
 export default function SeeAll() {
   return (
-    <div className='h-screen bg-amber-100'>
-      <h1>See all Product</h1>
-      <div>
-         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5  p-3 shadow-lg shadow-indigo-500/10 '>
-            <div>
-               <img className='h-[13em] ' src="https://example.com/image1.jpg" alt="" />
-               <p className=''>Product 1</p>
+    <div className='bg-slate-500 min-h-screen'>
+      
+      <div className='grid md:grid-cols-3 md:gap-4 p-3 grid-flow-col-1 gap-4'>
+        <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl '>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Pgk-MjdvCtmvLRvjEiO2Cko4AQzwUhx6GA&s" alt="" className='rounded-lg w-full h-[17em]' />
+          <div className='p-4 '>
+            <h3 className='text-xl font-bold'>Product 1</h3>
+            <p className='text-sm my-2 '>Description of the product goes here.</p>
+            <div className='flex justify-between items-center'>
+              <p className='text-lg font-bold'>$20.00</p>
+              <button className='text-slate-200 w-[10em] rounded border p-2'>Add to Cart</button>
             </div>
-            <div>
-               <img className='h-[13em] ' src="https://example.com/image2.jpg" alt="" />
-               <p className=''>Product 2</p>
-            </div>
-            <div>
-               <img className='h-[13em] ' src="https://example.com/image3.jpg" alt="" />
-               <p className=''>Product 3</p>
-            </div>
-            <div>
-               <img className='h-[13em] ' src="https://example.com/image4.jpg" alt="" />
-               <p className=''>Product 4</p>
-            </div>
-            
-            <div>
-               <img className='h-[13em] ' src="https://example.com/image5.jpg" alt="" />
-               <p className=''>Product 5</p>
+          </div>
+        </div>
+        {/* Repeat similar blocks for other products */}
+         <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcZNksk5WAinSfsLBBvdrbibrzpsumrMTODFWLRZyvL_g3aBe1zcInhCjPldwt63owmM&usqp=CAU" alt="" className='rounded-lg w-full h-[17em]' />
+            <div className='p-4'>
+               <h3 className='text-xl font-bold'>Product 2</h3>
+               <p className='text-sm my-2 '>Description of the product goes here.</p>
+               <div className='flex justify-between items-center'>
+               <p className='text-lg font-bold'>$25.00</p>
+               <button className='text-slate-200 w-[10em] rounded border p-2'>Add to Cart</button>
                </div>
-
-
-            <div>
-               <img className='h-[13em] ' src="https://example.com/image6.jpg" alt="" />
-               <p className=''>Product 6</p>
             </div>
-         </div>
-      </div>
+            </div>
+
+         <div className=' p-3 shadow-lg shadow-indigo-500/50 rounded-2xl'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAf2v89aIP4JOovQqTpr1anrG6m5BOkMrMUTMUc-FjglWC0naigSQi-jG5CSXs-c5FawE&usqp=CAU" alt="" className='rounded-lg w-full h-[17em]' />
+            <div className='p-4'>
+               <h3 className='text-xl font-bold'>Product 3</h3>
+               <p className='text-sm my-2 '>Description of the product goes here.</p>
+               <div className='flex justify-between items-center'>
+               <p className='text-lg font-bold'>$15.00</p>
+               <button className='text-slate-200 w-[10em] rounded border p-2'>Add to Cart</button>
+               </div>
+            </div>
+
+            
+            </div>
+        </div>
     </div>
   )
 }
