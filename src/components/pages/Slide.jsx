@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Slide() {
   return (
-    <div className='mt-20'>
+    <div className='mt-10'>
       <div className="relative w-full h-[30em] ">
       
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>

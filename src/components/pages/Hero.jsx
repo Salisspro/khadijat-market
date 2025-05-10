@@ -19,8 +19,11 @@ export default function Hero() {
             <p className=''>Princess dress</p>
           </div>
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[13em]' src={IMG3} alt="" />
-            <p className=''>Princess dress</p>
+            <a href="/Phones">
+
+              <img className='rounded-[10px] w-full h-[13em]' src={IMG3} alt="" />
+              <p className=''>Phones</p>
+            </a>
           </div>
 
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
@@ -29,9 +32,13 @@ export default function Hero() {
           </div>
 
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[13em]' src={IMG5} alt="" />
-            <p className=''>Princess dress</p>
+            <a href="/GirlsDress">
+
+              <img className='rounded-[10px] w-full h-[13em]' src={IMG5} alt="" />
+              <p className=''>Girls items</p>
+            </a>
           </div>
+
           <a href="/SeeAll">
             <button className='text-blue-500'>See all</button>
           </a>

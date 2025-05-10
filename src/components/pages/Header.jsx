@@ -6,7 +6,9 @@ import NemuClose from '../../assets/image/icon-menu-close.svg'
 export default function Header() {
   const [modal, setModal] = useState(false)
   return (
-    <div className=' flex items-center justify-between mx-5 '>
+    <div className=' '>
+      <div className='mt-5 flex items-center justify-between mx-5'>
+
       <div className='text-2xl font-bold'>
         <a href="#" className='text-slate-700 capitalize'>online market</a>
       </div>
@@ -29,6 +31,7 @@ export default function Header() {
         </div>
       )}
 
+      </div>
     </div>
   )
   }

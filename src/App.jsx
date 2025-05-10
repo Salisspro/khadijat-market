@@ -4,6 +4,8 @@ import Main from './components/pages/Main'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SeeAll from './components/router/SeeAll';
+import Phones from './components/router/Phones';
+import GirlsDress from './components/router/GirlsDress';
 
 function App() {
 
@@ -11,8 +13,10 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main/>} />
-          <Route path="/SeeAll" element={<SeeAll/>} />
+          <Route path="/" element={<Main />} />
+          <Route path="/SeeAll" element={<SeeAll />} />
+          <Route path="/Phones" element={<Phones />} />
+          <Route path="/GirlsDress" element={<GirlsDress />} />
         </Routes>
       </BrowserRouter>
     </div>
