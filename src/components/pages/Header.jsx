@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className=' flex items-center justify-between mx-5 '>
       <div className='text-2xl font-bold'>
-        <a href="#" className='text-slate-200 capitalize'>online market</a>
+        <a href="#" className='text-slate-700 capitalize'>online market</a>
       </div>
       <div className='hidden md:flex gap-4 z-10'>
         <a href="#" className='hover:text-slate-400'>Home</a>

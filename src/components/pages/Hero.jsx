@@ -15,21 +15,21 @@ export default function Hero() {
         <h1 className='mt-20 text-3xl font-bold'>Our best sellers</h1>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5  p-3 '>
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[15em]' src={IMG2} alt="" />
+            <img className='rounded-[10px] w-full h-[13em]' src={IMG2} alt="" />
             <p className=''>Princess dress</p>
           </div>
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[15em]' src={IMG3} alt="" />
-            <p className=''>Princess dress</p>
-          </div>
-
-          <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[15em]' src={IMG4} alt="" />
+            <img className='rounded-[10px] w-full h-[13em]' src={IMG3} alt="" />
             <p className=''>Princess dress</p>
           </div>
 
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[15em]' src={IMG5} alt="" />
+            <img className='rounded-[10px] w-full h-[13em]' src={IMG4} alt="" />
+            <p className=''>Princess dress</p>
+          </div>
+
+          <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
+            <img className='rounded-[10px] w-full h-[13em]' src={IMG5} alt="" />
             <p className=''>Princess dress</p>
           </div>
           <a href="/SeeAll">
