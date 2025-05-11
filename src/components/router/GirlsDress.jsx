@@ -57,26 +57,7 @@ export default function GirlsDress() {
          <div className=''>
             <img className='rounded h-[17em] w-full' src={IMG5} alt="" />
          </div>
-         <div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG6} alt="" />
-         </div>
-         <div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG7} alt="" />
-         </div>
-         <div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG8} alt="" />
-         </div>
-         <div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG9} alt="" />
-         </div>
-         <div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG10} alt="" />
-         </div><div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG11} alt="" />
-         </div>
-         <div className=''>
-            <img className='rounded h-[17em] w-full' src={IMG12} alt="" />
-         </div>
+         
 
       </div>
    )

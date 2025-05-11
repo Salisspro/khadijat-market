@@ -15,8 +15,6 @@ export default function Phones() {
       <div className='grid grid-flow-row gap-5 p-10'>
          <div>
             <img className='rounded' src={IMG1} alt="" />
-         
-
          </div>
 
          <div>

@@ -1,7 +1,7 @@
 
 import React from 'react'
 import IMG from '../../assets/img/1746336704509.jpg'
-import IMG2 from '../../assets/image/images.jpg'
+import IMG2 from '../milkImages/image_downloader_1746944010113.jpg'
 import IMG3 from '../../assets/image/xiaomi-redmi-a3-4g-64gb-schwarz-ohne-simlock-ohne-branding-001.jpg'
 import IMG4 from '../../assets/image/614gnlfQt2L._AC_SL1500_.jpg'
 
@@ -15,8 +15,10 @@ export default function Hero() {
         <h1 className='mt-20 text-3xl font-bold'>Our best sellers</h1>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-5  p-3 '>
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
-            <img className='rounded-[10px] w-full h-[13em]' src={IMG2} alt="" />
-            <p className=''>Princess dress</p>
+            <a href="/Milks">
+              <img className='rounded-[10px] w-full h-[13em]' src={IMG2} alt="" />
+              <p className=''>Milks</p>
+            </a>
           </div>
           <div className='bg-gradient-to-t to-blue-200 from-orange-400 p-3 rounded'>
             <a href="/Phones">
