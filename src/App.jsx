@@ -7,6 +7,7 @@ import SeeAll from './components/router/SeeAll';
 import Phones from './components/router/Phones';
 import GirlsDress from './components/router/GirlsDress';
 import Milks from './components/router/Milks';
+import Shoes from './components/router/Shoes';
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
           <Route path="/SeeAll" element={<SeeAll />} />
           <Route path="/Phones" element={<Phones />} />
           <Route path="/GirlsDress" element={<GirlsDress />} />
+          <Route path="/Milks" element={<Milks />} />
+          <Route path="/Shoes" element={<Shoes/>} />
 
-            <Route path="/Milks" element={<Milks/>} />
         </Routes>
       </BrowserRouter>
     </div>
